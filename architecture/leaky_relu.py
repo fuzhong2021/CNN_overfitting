@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-
-
 from keras import backend as K
 from keras.models import Sequential
 from keras.layers import Dense, Conv2D , MaxPool2D, Flatten , Dropout, LeakyReLU
@@ -9,13 +7,12 @@ from keras.optimizers import *
 from keras.regularizers import l2
 from keras import callbacks
 import tensorflow as tf
-
 import cv2
 import os
 from datetime import datetime
-now = datetime.now()
 import numpy as np
 
+now = datetime.now()
 
 labels = ['for', 'against']
 img_size = 224
