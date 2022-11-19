@@ -7,7 +7,6 @@ from keras.layers import Dense, Conv2D , MaxPool2D, Flatten , Dropout, LeakyReLU
 from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import *
 from keras.regularizers import l2
-from sklearn.metrics import classification_report,confusion_matrix
 from keras import callbacks
 import tensorflow as tf
 
